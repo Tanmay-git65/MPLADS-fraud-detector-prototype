@@ -1,0 +1,42 @@
+### Combined (fraud + delay) view, Medium+ threshold ###
+======================================================================
+EVALUATION -- flagging threshold: risk_tier in ('Medium', 'High', 'Critical')
+======================================================================
+Total works in dataset:                 1415
+Works with an injected fraud pattern:   116
+Works flagged by the system:            701
+  True positives  (correctly caught):   114
+  False positives (flagged, not fraud): 587
+  False negatives (missed fraud):       2
+
+Precision:  16.3%   (of what we flagged, how much was real)
+Recall:     98.3%   (of planted fraud, how much we caught)
+F1 score:   27.9%
+
+--- Recall by fraud pattern type ---
+  COST_INFLATION        : caught  21 /  21  (100.0%)
+  DUPLICATE_PHOTO       : caught   9 /   9  (100.0%)
+  DUPLICATE_WORK        : caught  30 /  30  (100.0%)
+  GEOTAG_MISMATCH       : caught  10 /  10  (100.0%)
+  PAYMENT_STRUCTURING   : caught  10 /  12  ( 83.3%)
+  STALLED_OVERDUE       : caught  28 /  28  (100.0%)
+  VELOCITY_MISMATCH     : caught  10 /  10  (100.0%)
+
+--- Missed cases (false negatives) -- worth showing honestly in your demo ---
+entity_id             pattern                                                                    note
+   W01276 PAYMENT_STRUCTURING Original payment 1414318 split into 4 tranches under approval threshold
+   W01236 PAYMENT_STRUCTURING Original payment 1439490 split into 3 tranches under approval threshold
+
+--- Vendor collusion ring (IA-level) ---
+Planted ring IAs: ['IA010', 'IA017', 'IA029']
+IAs whose works triggered a 'collusion' explanation: see network detector output directly
+
+======================================================================
+HEADLINE METRIC: fraud-pattern precision/recall by risk tier
+(delay patterns excluded -- scored separately on the delay_tier axis)
+======================================================================
+  Tier >= Critical            : flagged= 120  precision= 60.0%  recall= 91.1%
+  Tier >= High/Critical       : flagged= 267  precision= 28.1%  recall= 94.9%
+  Tier >= Medium/High/Critical: flagged= 575  precision= 13.4%  recall= 97.5%
+
+Recommended review workflow: Critical tier -> immediate investigation queue; High -> District Authority review within a week; Medium -> flagged for routine audit sampling.

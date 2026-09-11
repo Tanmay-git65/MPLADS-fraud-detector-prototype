@@ -1,0 +1,129 @@
+entity_type,entity_id,pattern,note
+ia,IA010,VENDOR_COLLUSION_RING,Part of injected collusion ring in Sitapur
+ia,IA017,VENDOR_COLLUSION_RING,Part of injected collusion ring in Sitapur
+ia,IA029,VENDOR_COLLUSION_RING,Part of injected collusion ring in Sitapur
+vendor,V025,VENDOR_COLLUSION_RING,Part of injected collusion ring
+vendor,V023,VENDOR_COLLUSION_RING,Part of injected collusion ring
+vendor,V071,VENDOR_COLLUSION_RING,Part of injected collusion ring
+vendor,V042,VENDOR_COLLUSION_RING,Part of injected collusion ring
+vendor,V073,VENDOR_COLLUSION_RING,Part of injected collusion ring
+work,W01123,COST_INFLATION,Sanctioned amount inflated 3.16x above peer norm
+work,W00616,COST_INFLATION,Sanctioned amount inflated 2.52x above peer norm
+work,W00915,COST_INFLATION,Sanctioned amount inflated 3.23x above peer norm
+work,W00567,COST_INFLATION,Sanctioned amount inflated 3.72x above peer norm
+work,W00930,COST_INFLATION,Sanctioned amount inflated 3.14x above peer norm
+work,W00636,COST_INFLATION,Sanctioned amount inflated 3.64x above peer norm
+work,W01060,COST_INFLATION,Sanctioned amount inflated 3.56x above peer norm
+work,W01161,COST_INFLATION,Sanctioned amount inflated 3.19x above peer norm
+work,W00651,COST_INFLATION,Sanctioned amount inflated 2.98x above peer norm
+work,W00578,COST_INFLATION,Sanctioned amount inflated 3.59x above peer norm
+work,W00006,COST_INFLATION,Sanctioned amount inflated 3.05x above peer norm
+work,W00265,COST_INFLATION,Sanctioned amount inflated 2.76x above peer norm
+work,W00279,COST_INFLATION,Sanctioned amount inflated 2.98x above peer norm
+work,W00134,COST_INFLATION,Sanctioned amount inflated 3.82x above peer norm
+work,W00855,COST_INFLATION,Sanctioned amount inflated 2.93x above peer norm
+work,W00417,COST_INFLATION,Sanctioned amount inflated 2.85x above peer norm
+work,W00740,COST_INFLATION,Sanctioned amount inflated 2.70x above peer norm
+work,W00146,COST_INFLATION,Sanctioned amount inflated 2.58x above peer norm
+work,W00032,COST_INFLATION,Sanctioned amount inflated 3.97x above peer norm
+work,W00904,COST_INFLATION,Sanctioned amount inflated 3.31x above peer norm
+work,W00593,COST_INFLATION,Sanctioned amount inflated 3.59x above peer norm
+work,W01401,DUPLICATE_WORK,Duplicate of W01105 -- same asset billed twice
+work,W01105,DUPLICATE_WORK,Original; duplicated as W01401
+work,W01402,DUPLICATE_WORK,Duplicate of W01341 -- same asset billed twice
+work,W01341,DUPLICATE_WORK,Original; duplicated as W01402
+work,W01403,DUPLICATE_WORK,Duplicate of W00606 -- same asset billed twice
+work,W00606,DUPLICATE_WORK,Original; duplicated as W01403
+work,W01404,DUPLICATE_WORK,Duplicate of W01113 -- same asset billed twice
+work,W01113,DUPLICATE_WORK,Original; duplicated as W01404
+work,W01405,DUPLICATE_WORK,Duplicate of W00834 -- same asset billed twice
+work,W00834,DUPLICATE_WORK,Original; duplicated as W01405
+work,W01406,DUPLICATE_WORK,Duplicate of W00208 -- same asset billed twice
+work,W00208,DUPLICATE_WORK,Original; duplicated as W01406
+work,W01407,DUPLICATE_WORK,Duplicate of W01007 -- same asset billed twice
+work,W01007,DUPLICATE_WORK,Original; duplicated as W01407
+work,W01408,DUPLICATE_WORK,Duplicate of W01073 -- same asset billed twice
+work,W01073,DUPLICATE_WORK,Original; duplicated as W01408
+work,W01409,DUPLICATE_WORK,Duplicate of W00284 -- same asset billed twice
+work,W00284,DUPLICATE_WORK,Original; duplicated as W01409
+work,W01410,DUPLICATE_WORK,Duplicate of W00562 -- same asset billed twice
+work,W00562,DUPLICATE_WORK,Original; duplicated as W01410
+work,W01411,DUPLICATE_WORK,Duplicate of W00490 -- same asset billed twice
+work,W00490,DUPLICATE_WORK,Original; duplicated as W01411
+work,W01412,DUPLICATE_WORK,Duplicate of W01356 -- same asset billed twice
+work,W01356,DUPLICATE_WORK,Original; duplicated as W01412
+work,W01413,DUPLICATE_WORK,Duplicate of W01036 -- same asset billed twice
+work,W01036,DUPLICATE_WORK,Original; duplicated as W01413
+work,W01414,DUPLICATE_WORK,Duplicate of W00694 -- same asset billed twice
+work,W00694,DUPLICATE_WORK,Original; duplicated as W01414
+work,W01415,DUPLICATE_WORK,Duplicate of W00996 -- same asset billed twice
+work,W00996,DUPLICATE_WORK,Original; duplicated as W01415
+work,W00937,STALLED_OVERDUE,"Sanctioned >500 days ago, still not marked complete"
+work,W01127,STALLED_OVERDUE,"Sanctioned >500 days ago, still not marked complete"
+work,W01176,STALLED_OVERDUE,"Sanctioned >500 days ago, still not marked complete"
+work,W00564,STALLED_OVERDUE,"Sanctioned >500 days ago, still not marked complete"
+work,W00842,STALLED_OVERDUE,"Sanctioned >500 days ago, still not marked complete"
+work,W01345,STALLED_OVERDUE,"Sanctioned >500 days ago, still not marked complete"
+work,W00900,STALLED_OVERDUE,"Sanctioned >500 days ago, still not marked complete"
+work,W01199,STALLED_OVERDUE,"Sanctioned >500 days ago, still not marked complete"
+work,W00621,STALLED_OVERDUE,"Sanctioned >500 days ago, still not marked complete"
+work,W00244,STALLED_OVERDUE,"Sanctioned >500 days ago, still not marked complete"
+work,W00348,STALLED_OVERDUE,"Sanctioned >500 days ago, still not marked complete"
+work,W00462,STALLED_OVERDUE,"Sanctioned >500 days ago, still not marked complete"
+work,W01347,STALLED_OVERDUE,"Sanctioned >500 days ago, still not marked complete"
+work,W00310,STALLED_OVERDUE,"Sanctioned >500 days ago, still not marked complete"
+work,W00652,STALLED_OVERDUE,"Sanctioned >500 days ago, still not marked complete"
+work,W00566,STALLED_OVERDUE,"Sanctioned >500 days ago, still not marked complete"
+work,W00981,STALLED_OVERDUE,"Sanctioned >500 days ago, still not marked complete"
+work,W01141,STALLED_OVERDUE,"Sanctioned >500 days ago, still not marked complete"
+work,W00760,STALLED_OVERDUE,"Sanctioned >500 days ago, still not marked complete"
+work,W00861,STALLED_OVERDUE,"Sanctioned >500 days ago, still not marked complete"
+work,W00863,STALLED_OVERDUE,"Sanctioned >500 days ago, still not marked complete"
+work,W00524,STALLED_OVERDUE,"Sanctioned >500 days ago, still not marked complete"
+work,W01185,STALLED_OVERDUE,"Sanctioned >500 days ago, still not marked complete"
+work,W00838,STALLED_OVERDUE,"Sanctioned >500 days ago, still not marked complete"
+work,W00519,STALLED_OVERDUE,"Sanctioned >500 days ago, still not marked complete"
+work,W00251,STALLED_OVERDUE,"Sanctioned >500 days ago, still not marked complete"
+work,W00021,STALLED_OVERDUE,"Sanctioned >500 days ago, still not marked complete"
+work,W00078,STALLED_OVERDUE,"Sanctioned >500 days ago, still not marked complete"
+work,W00913,PAYMENT_STRUCTURING,Original payment 1683447 split into 4 tranches under approval threshold
+work,W00055,PAYMENT_STRUCTURING,Original payment 1504893 split into 3 tranches under approval threshold
+work,W00389,PAYMENT_STRUCTURING,Original payment 2186263 split into 5 tranches under approval threshold
+work,W00086,PAYMENT_STRUCTURING,Original payment 1512644 split into 3 tranches under approval threshold
+work,W00773,PAYMENT_STRUCTURING,Original payment 2223519 split into 5 tranches under approval threshold
+work,W01231,PAYMENT_STRUCTURING,Original payment 1978106 split into 5 tranches under approval threshold
+work,W01161,PAYMENT_STRUCTURING,Original payment 1659146 split into 4 tranches under approval threshold
+work,W00953,PAYMENT_STRUCTURING,Original payment 3193077 split into 5 tranches under approval threshold
+work,W01276,PAYMENT_STRUCTURING,Original payment 1414318 split into 4 tranches under approval threshold
+work,W01059,PAYMENT_STRUCTURING,Original payment 2010113 split into 4 tranches under approval threshold
+work,W01105,PAYMENT_STRUCTURING,Original payment 2324720 split into 3 tranches under approval threshold
+work,W01236,PAYMENT_STRUCTURING,Original payment 1439490 split into 3 tranches under approval threshold
+work,W00864,VELOCITY_MISMATCH,100% of funds disbursed while work still In Progress
+work,W00424,VELOCITY_MISMATCH,100% of funds disbursed while work still In Progress
+work,W00935,VELOCITY_MISMATCH,100% of funds disbursed while work still In Progress
+work,W00359,VELOCITY_MISMATCH,100% of funds disbursed while work still In Progress
+work,W01036,VELOCITY_MISMATCH,100% of funds disbursed while work still In Progress
+work,W00848,VELOCITY_MISMATCH,100% of funds disbursed while work still In Progress
+work,W01121,VELOCITY_MISMATCH,100% of funds disbursed while work still In Progress
+work,W01304,VELOCITY_MISMATCH,100% of funds disbursed while work still In Progress
+work,W01194,VELOCITY_MISMATCH,100% of funds disbursed while work still In Progress
+work,W01269,VELOCITY_MISMATCH,100% of funds disbursed while work still In Progress
+work,W01297,GEOTAG_MISMATCH,Completion photo GPS tag far from sanctioned work location
+work,W01396,GEOTAG_MISMATCH,Completion photo GPS tag far from sanctioned work location
+work,W00054,GEOTAG_MISMATCH,Completion photo GPS tag far from sanctioned work location
+work,W00932,GEOTAG_MISMATCH,Completion photo GPS tag far from sanctioned work location
+work,W00305,GEOTAG_MISMATCH,Completion photo GPS tag far from sanctioned work location
+work,W00642,GEOTAG_MISMATCH,Completion photo GPS tag far from sanctioned work location
+work,W00391,GEOTAG_MISMATCH,Completion photo GPS tag far from sanctioned work location
+work,W00412,GEOTAG_MISMATCH,Completion photo GPS tag far from sanctioned work location
+work,W00228,GEOTAG_MISMATCH,Completion photo GPS tag far from sanctioned work location
+work,W00151,GEOTAG_MISMATCH,Completion photo GPS tag far from sanctioned work location
+work,W00828,DUPLICATE_PHOTO,Completion photo hash identical to 2 other unrelated works (group 0)
+work,W01368,DUPLICATE_PHOTO,Completion photo hash identical to 2 other unrelated works (group 0)
+work,W00234,DUPLICATE_PHOTO,Completion photo hash identical to 2 other unrelated works (group 0)
+work,W01316,DUPLICATE_PHOTO,Completion photo hash identical to 2 other unrelated works (group 1)
+work,W00960,DUPLICATE_PHOTO,Completion photo hash identical to 2 other unrelated works (group 1)
+work,W00534,DUPLICATE_PHOTO,Completion photo hash identical to 2 other unrelated works (group 1)
+work,W00122,DUPLICATE_PHOTO,Completion photo hash identical to 2 other unrelated works (group 2)
+work,W00265,DUPLICATE_PHOTO,Completion photo hash identical to 2 other unrelated works (group 2)
+work,W01115,DUPLICATE_PHOTO,Completion photo hash identical to 2 other unrelated works (group 2)
